@@ -56,7 +56,7 @@ if (degreeType==1)
         case 2:
             calculation.WriteRoundedCalculation(calculation.CalculateCosinusByRadian(radian));
             break;
-        case 3:
+        case 3: 
             if (degree == 90 || degree== 270)
                 Console.WriteLine("Tanımsız");
             else
